@@ -1,0 +1,27 @@
+mpirun -np 1 ./graph-bisect graph-sample.txt bisect-seq 10 1.00 0
+cutsize: 2030 imbal: 1.014e+00
+cutsize: 1685 imbal: 1.000e+00
+cutsize: 1463 imbal: 1.000e+00
+cutsize: 1357 imbal: 1.002e+00
+cutsize: 1282 imbal: 1.002e+00
+cutsize: 1248 imbal: 1.002e+00
+cutsize: 1214 imbal: 1.002e+00
+cutsize: 1189 imbal: 1.002e+00
+cutsize: 1173 imbal: 1.002e+00
+cutsize: 1162 imbal: 1.000e+00
+cutsize: 1154 imbal: 1.002e+00
+bisectGraph took 3.211975e-03 seconds.
+
+mpirun -np 1 ./graph-bisect graph-sample.txt bisect-seq 10 1.50 0
+cutsize: 2030 imbal: 1.014e+00
+cutsize: 1831 imbal: 1.024e+00
+cutsize: 1693 imbal: 1.060e+00
+cutsize: 1596 imbal: 1.082e+00
+cutsize: 1534 imbal: 1.124e+00
+cutsize: 1480 imbal: 1.158e+00
+cutsize: 1427 imbal: 1.192e+00
+cutsize: 1379 imbal: 1.230e+00
+cutsize: 1321 imbal: 1.290e+00
+cutsize: 1271 imbal: 1.340e+00
+cutsize: 1142 imbal: 1.428e+00
+bisectGraph took 3.228903e-03 seconds.
