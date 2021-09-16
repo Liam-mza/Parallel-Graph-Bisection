@@ -3,7 +3,7 @@ A parallel implementation of the label propagation-based graph bisection algorit
 
 # How to launch
   - Make sure to have MPI installed. 
-  - In the "/code" repository execute the "make" commande to compile the project.  
+  - In the "/code" repository execute the "make" command to compile the project.  
   - Now execute the program as follow:  
    **mpirun -np [num-procs] ./graph-bisect [graph-file-name] [bisect-algo-name] [max-iters] [epsilon] [random-seed]**  
    where:
@@ -18,3 +18,12 @@ A parallel implementation of the label propagation-based graph bisection algorit
     - [seed]: Random seed used to initialize the part array. This parameter is optional, and you can use it to test the correctness of your algorithm. If not specified, it is set to time(0).  
         
    
+# Create new graph
+You can create new "random" graphs with the following command:  
+**./create-graph.py [number of vertices] [number of edges] [Name you want for the graph file].**  
+
+  
+  
+**Project done for the "Parallel and Distributed Algorithms and Programs" course of Benoit Anne.**
+
+**ENJOY!**
